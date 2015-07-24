@@ -23,10 +23,10 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
-  <build_depend>barrett_hand_controller_srvs</build_depend>
+  <build_depend>barrett_hand_controller_msgs</build_depend>
   <build_depend>rtt_roscomm</build_depend>
 
-  <run_depend>barrett_hand_controller_srvs</run_depend>
+  <run_depend>barrett_hand_controller_msgs</run_depend>
   <run_depend>rtt_roscomm</run_depend>
 
   <build_depend>rtt_std_msgs</build_depend>

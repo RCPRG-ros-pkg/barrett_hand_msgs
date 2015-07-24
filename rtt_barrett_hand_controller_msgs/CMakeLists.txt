@@ -3,11 +3,11 @@ project(rtt_barrett_hand_controller_msgs)
 
 find_package(catkin REQUIRED COMPONENTS rtt_roscomm)
 
-ros_generate_rtt_typekit(barrett_hand_controller_srvs)
-ros_generate_rtt_service_proxies(barrett_hand_controller_srvs)
+ros_generate_rtt_typekit(barrett_hand_controller_msgs)
+ros_generate_rtt_service_proxies(barrett_hand_controller_msgs)
 
 orocos_generate_package(
-  DEPENDS barrett_hand_controller_srvs
+  DEPENDS barrett_hand_controller_msgs
   DEPENDS_TARGETS rtt_roscomm  rtt_std_msgs
  rtt_rosgraph_msgs
  rtt_geometry_msgs
