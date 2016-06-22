@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(rtt_barrett_hand_controller_msgs)
 
-find_package(catkin REQUIRED COMPONENTS rtt_roscomm)
+find_package(catkin REQUIRED COMPONENTS rtt_roscomm barrett_hand_controller_msgs)
 
 ros_generate_rtt_typekit(barrett_hand_controller_msgs)
 ros_generate_rtt_service_proxies(barrett_hand_controller_msgs)

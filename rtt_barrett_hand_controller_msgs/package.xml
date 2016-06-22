@@ -24,12 +24,14 @@
   <buildtool_depend>catkin</buildtool_depend>
 
   <build_depend>barrett_hand_controller_msgs</build_depend>
+  <run_depend>barrett_hand_controller_msgs</run_depend>
+
   <build_depend>rtt_roscomm</build_depend>
+  <run_depend>rtt_roscomm</run_depend>
+
   <build_depend>rtt_actionlib</build_depend>
   <build_depend>rtt_actionlib_msgs</build_depend>
-
-  <run_depend>barrett_hand_controller_msgs</run_depend>
-  <run_depend>rtt_roscomm</run_depend>
+  <run_depend>rtt_actionlib_msgs</run_depend>
 
   <build_depend>rtt_std_msgs</build_depend>
   <run_depend>rtt_std_msgs</run_depend>
@@ -40,7 +42,6 @@
   <build_depend>rtt_sensor_msgs</build_depend>
   <run_depend>rtt_sensor_msgs</run_depend>
 
-
   <export>
     <rtt_ros>
       <plugin_depend>rtt_roscomm</plugin_depend>
@@ -48,7 +49,7 @@
       <plugin_depend>rtt_rosgraph_msgs</plugin_depend>
       <plugin_depend>rtt_geometry_msgs</plugin_depend>
       <plugin_depend>rtt_sensor_msgs</plugin_depend>
-
+      <plugin_depend>rtt_actionlib_msgs</plugin_depend>
     </rtt_ros>
   </export>
 
