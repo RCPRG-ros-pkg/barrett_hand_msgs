@@ -2,7 +2,6 @@
 #The numbers reported are the raw values
 # based on pr2_msgs/PressureState
 
-Header header
 int16[24] finger1_tip
 int16[24] finger2_tip
 int16[24] finger3_tip
