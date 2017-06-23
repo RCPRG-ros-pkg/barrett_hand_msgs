@@ -1,8 +1,8 @@
 <package>
-  <name>barrett_hand_controller_msgs</name>
+  <name>barrett_hand_msgs</name>
   <version>2.6.0</version>
   <description>
-    Provides an rtt typekit for ROS barrett_hand_controller_msgs messages.
+    Provides an rtt typekit for ROS barrett_hand_msgs messages.
 
     It allows you to use ROS messages transparently in
     RTT components and applications.

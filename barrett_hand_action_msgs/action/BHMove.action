@@ -6,6 +6,8 @@ float64[] t
 float64 maxPressure
 int32 hold
 
+bool reset
+
 ---
 int32 error_code
 int32[] torque_switch
@@ -16,6 +18,7 @@ int32 INVALID_DOF_NAME = -1
 int32 INVALID_GOAL = -2
 int32 CURRENT_LIMIT = -3
 int32 PRESSURE_LIMIT = -4
+int32 RESET_IS_ACTIVE = -5
 
 ---
 Header header
