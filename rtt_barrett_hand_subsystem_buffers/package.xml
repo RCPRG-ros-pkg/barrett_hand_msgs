@@ -1,9 +1,9 @@
 <package>
-  <name>rtt_barrett_hand_subsystem_ports</name>
+  <name>rtt_barrett_hand_subsystem_buffers</name>
   <version>0.0.0</version>
   <description>
 
-    Provides an rtt typekit for ROS rtt_barrett_hand_subsystem_ports messages.
+    Provides an rtt typekit for ROS rtt_barrett_hand_subsystem_buffers messages.
 
     It allows you to use ROS messages transparently in
     RTT components and applications.
@@ -24,12 +24,12 @@
   <buildtool_depend>catkin</buildtool_depend>
 
   <build_depend>rtt_ros</build_depend>
-  <build_depend>rtt_subsystem_ports</build_depend>
+  <build_depend>rtt_subsystem_buffers</build_depend>
   <build_depend>common_interfaces</build_depend>
   <build_depend>barrett_hand_msgs</build_depend>
 
   <run_depend>rtt_ros</run_depend>
-  <run_depend>rtt_subsystem_ports</run_depend>
+  <run_depend>rtt_subsystem_buffers</run_depend>
   <run_depend>barrett_hand_msgs</run_depend>
   <export>
     <rtt_ros>

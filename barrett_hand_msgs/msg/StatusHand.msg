@@ -1,3 +1,3 @@
-float64[8] q    # subsystem_buffer{type: port}
-uint32 s        # subsystem_buffer{type: port}
+float64[8] q
+uint32 s
 
